@@ -1,0 +1,10 @@
+/home/pi/Downloads/leshan/leshan-core/src/test/java/org/eclipse/leshan/core/node/LwM2MResourceTest.java
+/home/pi/Downloads/leshan/leshan-core/src/test/java/org/eclipse/leshan/core/node/codec/LwM2mNodeEncoderTest.java
+/home/pi/Downloads/leshan/leshan-core/src/test/java/org/eclipse/leshan/core/node/codec/LwM2mNodeDecoderTest.java
+/home/pi/Downloads/leshan/leshan-core/src/test/java/org/eclipse/leshan/core/attributes/AttributeTest.java
+/home/pi/Downloads/leshan/leshan-core/src/test/java/org/eclipse/leshan/tlv/TlvEncoderTest.java
+/home/pi/Downloads/leshan/leshan-core/src/test/java/org/eclipse/leshan/core/attributes/AttributeSetTest.java
+/home/pi/Downloads/leshan/leshan-core/src/test/java/org/eclipse/leshan/LinkObjectTest.java
+/home/pi/Downloads/leshan/leshan-core/src/test/java/org/eclipse/leshan/tlv/TlvDecoderTest.java
+/home/pi/Downloads/leshan/leshan-core/src/test/java/org/eclipse/leshan/json/JsonSerializerTest.java
+/home/pi/Downloads/leshan/leshan-core/src/test/java/org/eclipse/leshan/json/JsonDeserializerTest.java
