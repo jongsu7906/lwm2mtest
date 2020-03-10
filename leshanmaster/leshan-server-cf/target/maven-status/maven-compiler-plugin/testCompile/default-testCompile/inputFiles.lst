@@ -1,8 +1,0 @@
-/home/pi/Downloads/leshan/leshan-server-cf/src/test/java/org/eclipse/leshan/server/californium/LeshanServerTest.java
-/home/pi/Downloads/leshan/leshan-server-cf/src/test/java/org/eclipse/leshan/server/californium/bootstrap/LeshanBootstrapServerTest.java
-/home/pi/Downloads/leshan/leshan-server-cf/src/test/java/org/eclipse/leshan/server/californium/request/CoapRequestBuilderTest.java
-/home/pi/Downloads/leshan/leshan-server-cf/src/test/java/org/eclipse/leshan/server/californium/bootstrap/LeshanBootstrapServerBuilderTest.java
-/home/pi/Downloads/leshan/leshan-server-cf/src/test/java/org/eclipse/leshan/server/californium/registration/InMemoryRegistrationStoreTest.java
-/home/pi/Downloads/leshan/leshan-server-cf/src/test/java/org/eclipse/leshan/server/californium/observation/ObservationServiceTest.java
-/home/pi/Downloads/leshan/leshan-server-cf/src/test/java/org/eclipse/leshan/server/californium/CaliforniumTestSupport.java
-/home/pi/Downloads/leshan/leshan-server-cf/src/test/java/org/eclipse/leshan/server/californium/LeshanServerBuilderTest.java
