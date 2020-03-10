@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<rexpfd>
-    <destination path="DESKTOP-JSNR1IS.PI(Phymac):/home/pi"/>
-    <options createDirectoryStructure="false" createSelectedOnly="true" descriptionFilePath="/leshan-master/leshantest1.rexpfd" overWriteExistingFiles="false" reviewSynchronize="true" saveSettings="true"/>
-    <selectedElements>
-        <project name="leshan-master"/>
-    </selectedElements>
-</rexpfd>
