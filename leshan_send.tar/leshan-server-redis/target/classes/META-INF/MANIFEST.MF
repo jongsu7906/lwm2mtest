@@ -1,0 +1,41 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1583723580578
+Build-Jdk: 1.8.0_212
+Built-By: pi
+Bundle-Description: Redis implementation for different stores of Leshan 
+ Server
+Bundle-License: http://www.eclipse.org/legal/epl-v10.html, http://www.ec
+ lipse.org/org/documents/edl-v10.html
+Bundle-ManifestVersion: 2
+Bundle-Name: leshan - server redis
+Bundle-SymbolicName: leshan-server-redis
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.eclipse.leshan.server.redis;version="1.0.0";uses:="o
+ rg.eclipse.californium.core.coap,org.eclipse.californium.core.observe,o
+ rg.eclipse.californium.elements,org.eclipse.leshan.core.observation,org
+ .eclipse.leshan.server,org.eclipse.leshan.server.californium.registrati
+ on,org.eclipse.leshan.server.registration,org.eclipse.leshan.server.sec
+ urity,redis.clients.jedis,redis.clients.jedis.util",org.eclipse.leshan.
+ server.redis.serialization;version="1.0.0";uses:="com.eclipsesource.jso
+ n,org.eclipse.californium.core.observe,org.eclipse.californium.elements
+ ,org.eclipse.leshan.core.request,org.eclipse.leshan.server.registration
+ ,org.eclipse.leshan.server.security"
+Import-Package: com.eclipsesource.json;version="[0.9,1)",javax.security.
+ auth.x500,org.eclipse.californium.core.coap;version="[2.1,3)",org.eclip
+ se.californium.core.network.serialization;version="[2.1,3)",org.eclipse
+ .californium.core.observe;version="[2.1,3)",org.eclipse.californium.ele
+ ments;version="[2.1,3)",org.eclipse.californium.elements.auth;version="
+ [2.1,3)",org.eclipse.leshan;version="[1.0,2)",org.eclipse.leshan.core.n
+ ode;version="[1.0,2)",org.eclipse.leshan.core.observation;version="[1.0
+ ,2)",org.eclipse.leshan.core.request;version="[1.0,2)",org.eclipse.lesh
+ an.server;version="[1.0,2)",org.eclipse.leshan.server.californium.obser
+ vation;version="[1.0,2)",org.eclipse.leshan.server.californium.registra
+ tion;version="[1.0,2)",org.eclipse.leshan.server.redis.serialization;ve
+ rsion="[1.0,2)",org.eclipse.leshan.server.registration;version="[1.0,2)
+ ",org.eclipse.leshan.server.security;version="[1.0,2)",org.eclipse.lesh
+ an.util;version="[1.0,2)",org.slf4j;version="[1.7,2)",redis.clients.jed
+ is;version="[3.2,4)",redis.clients.jedis.params;version="[3.2,4)",redis
+ .clients.jedis.util;version="[3.2,4)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+Tool: Bnd-4.0.0.201805111645
