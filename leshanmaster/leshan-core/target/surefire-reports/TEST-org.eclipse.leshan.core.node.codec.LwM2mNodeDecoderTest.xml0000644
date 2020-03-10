@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.eclipse.leshan.core.node.codec.LwM2mNodeDecoderTest" time="0.164" tests="41" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/pi/Downloads/leshan/leshan-core/target/test-classes:/home/pi/Downloads/leshan/leshan-core/target/classes:/home/pi/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/home/pi/.m2/repository/com/eclipsesource/minimal-json/minimal-json/0.9.5/minimal-json-0.9.5.jar:/home/pi/.m2/repository/junit/junit/4.13/junit-4.13.jar:/home/pi/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/pi/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/home/pi/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Linux"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-armhf/jre/lib/arm"/>
+    <property name="sun.java.command" value="/home/pi/Downloads/leshan/leshan-core/target/surefire/surefirebooter3742026459964018752.jar /home/pi/Downloads/leshan/leshan-core/target/surefire 2020-02-27T02-23-23_075-jvmRun1 surefire5879740143969271407tmp surefire_03748606463315110588tmp"/>
+    <property name="surefire.test.class.path" value="/home/pi/Downloads/leshan/leshan-core/target/test-classes:/home/pi/Downloads/leshan/leshan-core/target/classes:/home/pi/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/home/pi/.m2/repository/com/eclipsesource/minimal-json/minimal-json/0.9.5/minimal-json-0.9.5.jar:/home/pi/.m2/repository/junit/junit/4.13/junit-4.13.jar:/home/pi/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/pi/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/home/pi/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/pi"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/usr/lib/jvm/java-8-openjdk-armhf/jre"/>
+    <property name="basedir" value="/home/pi/Downloads/leshan/leshan-core"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/home/pi/Downloads/leshan/leshan-core/target/surefire/surefirebooter3742026459964018752.jar"/>
+    <property name="logback.configurationFile" value="logback-leshan-test.xml"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-openjdk-armhf/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-armhf/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-armhf/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-armhf/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-armhf/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-armhf/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-armhf/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-armhf/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="java.runtime.version" value="1.8.0_212-8u212-b01-1+rpi1-b01"/>
+    <property name="user.name" value="pi"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="4.19.97-v7+"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-openjdk-armhf/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK Client VM"/>
+    <property name="localRepository" value="/home/pi/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="1.8.0_212"/>
+    <property name="user.dir" value="/home/pi/Downloads/leshan/leshan-core"/>
+    <property name="os.arch" value="arm"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/arm:/usr/lib/arm-linux-gnueabihf/jni:/lib/arm-linux-gnueabihf:/usr/lib/arm-linux-gnueabihf:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.212-b01"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-8-openjdk-armhf/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="tlv_empty_single_resource" classname="org.eclipse.leshan.core.node.codec.LwM2mNodeDecoderTest" time="0.016"/>
+  <testcase name="tlv_empty_instance" classname="org.eclipse.leshan.core.node.codec.LwM2mNodeDecoderTest" time="0.002"/>
+  <testcase name="tlv_unknown_object__missing_instance_tlv" classname="org.eclipse.leshan.core.node.codec.LwM2mNodeDecoderTest" time="0.005"/>
+  <testcase name="text_manufacturer_resource" classname="org.eclipse.leshan.core.node.codec.LwM2mNodeDecoderTest" time="0.005"/>
+  <testcase name="json_missing_value_for_resource" classname="org.eclipse.leshan.core.node.codec.LwM2mNodeDecoderTest" time="0.008"/>
+  <testcase name="json_custom_object_instance" classname="org.eclipse.leshan.core.node.codec.LwM2mNodeDecoderTest" time="0.013"/>
+  <testcase name="tlv_empty_multi_resource" classname="org.eclipse.leshan.core.node.codec.LwM2mNodeDecoderTest" time="0.001"/>
+  <testcase name="tlv_server_object_multi_instance_with_only_1_instance" classname="org.eclipse.leshan.core.node.codec.LwM2mNodeDecoderTest" time="0.006"/>
+  <testcase name="tlv_empty_object" classname="org.eclipse.leshan.core.node.codec.LwM2mNodeDecoderTest" time="0"/>
+  <testcase name="tlv_multi_instance_with_obj_link" classname="org.eclipse.leshan.core.node.codec.LwM2mNodeDecoderTest" time="0.002"/>
+  <testcase name="json_device_object_instance0_without_basename" classname="org.eclipse.leshan.core.node.codec.LwM2mNodeDecoderTest" time="0.024"/>
+  <testcase name="text_decode_should_throw_an_exception_for_invalid_base64" classname="org.eclipse.leshan.core.node.codec.LwM2mNodeDecoderTest" time="0.002"/>
+  <testcase name="tlv_power_source__multiple_resource" classname="org.eclipse.leshan.core.node.codec.LwM2mNodeDecoderTest" time="0.001"/>
+  <testcase name="json_empty_instance" classname="org.eclipse.leshan.core.node.codec.LwM2mNodeDecoderTest" time="0.003"/>
+  <testcase name="tlv_device_object_instance0_from_resources_tlv" classname="org.eclipse.leshan.core.node.codec.LwM2mNodeDecoderTest" time="0.004"/>
+  <testcase name="tlv_power_source__array_values" classname="org.eclipse.leshan.core.node.codec.LwM2mNodeDecoderTest" time="0.003"/>
+  <testcase name="tlv_invalid_multi_resource_2_instance_with_the_same_id" classname="org.eclipse.leshan.core.node.codec.LwM2mNodeDecoderTest" time="0.003"/>
+  <testcase name="tlv_instance_without_id_tlv" classname="org.eclipse.leshan.core.node.codec.LwM2mNodeDecoderTest" time="0.001"/>
+  <testcase name="json_timestamped_instances" classname="org.eclipse.leshan.core.node.codec.LwM2mNodeDecoderTest" time="0.003"/>
+  <testcase name="tlv_acl_object_multi_instance" classname="org.eclipse.leshan.core.node.codec.LwM2mNodeDecoderTest" time="0.003"/>
+  <testcase name="json_cut_basename_name_in_the_middle_of_an_id" classname="org.eclipse.leshan.core.node.codec.LwM2mNodeDecoderTest" time="0.002"/>
+  <testcase name="tlv_single_instance_with_obj_link" classname="org.eclipse.leshan.core.node.codec.LwM2mNodeDecoderTest" time="0.002"/>
+  <testcase name="json_invalid_instance_2_resources_with_the_same_id" classname="org.eclipse.leshan.core.node.codec.LwM2mNodeDecoderTest" time="0.003"/>
+  <testcase name="text_battery_resource" classname="org.eclipse.leshan.core.node.codec.LwM2mNodeDecoderTest" time="0.001"/>
+  <testcase name="json_empty_multi_resource" classname="org.eclipse.leshan.core.node.codec.LwM2mNodeDecoderTest" time="0.003"/>
+  <testcase name="json_timestamped_Object" classname="org.eclipse.leshan.core.node.codec.LwM2mNodeDecoderTest" time="0.003"/>
+  <testcase name="json_invalid_multi_resource_2_instances_with_the_same_id" classname="org.eclipse.leshan.core.node.codec.LwM2mNodeDecoderTest" time="0.003"/>
+  <testcase name="tlv_invalid_object_2_instances_with_the_same_id" classname="org.eclipse.leshan.core.node.codec.LwM2mNodeDecoderTest" time="0.003"/>
+  <testcase name="json_empty_object" classname="org.eclipse.leshan.core.node.codec.LwM2mNodeDecoderTest" time="0.002"/>
+  <testcase name="tlv_manufacturer_resource" classname="org.eclipse.leshan.core.node.codec.LwM2mNodeDecoderTest" time="0.001"/>
+  <testcase name="text_decode_opaque_from_base64_string" classname="org.eclipse.leshan.core.node.codec.LwM2mNodeDecoderTest" time="0.001"/>
+  <testcase name="tlv_device_object_instance0_from_resources_tlv__instance_expected" classname="org.eclipse.leshan.core.node.codec.LwM2mNodeDecoderTest" time="0.004"/>
+  <testcase name="content_format_is_mandatory" classname="org.eclipse.leshan.core.node.codec.LwM2mNodeDecoderTest" time="0.001"/>
+  <testcase name="tlv_resource_with_undesired_invalid_object_instance" classname="org.eclipse.leshan.core.node.codec.LwM2mNodeDecoderTest" time="0.002"/>
+  <testcase name="tlv_invalid_object__instance_2_resources_with_the_same_id" classname="org.eclipse.leshan.core.node.codec.LwM2mNodeDecoderTest" time="0.002"/>
+  <testcase name="json_device_object_instance0" classname="org.eclipse.leshan.core.node.codec.LwM2mNodeDecoderTest" time="0.007"/>
+  <testcase name="json_empty_single_resource" classname="org.eclipse.leshan.core.node.codec.LwM2mNodeDecoderTest" time="0.001"/>
+  <testcase name="json_device_object_instance0_with_empty_root_basename" classname="org.eclipse.leshan.core.node.codec.LwM2mNodeDecoderTest" time="0.006"/>
+  <testcase name="tlv_resource_with_undesired_object_instance" classname="org.eclipse.leshan.core.node.codec.LwM2mNodeDecoderTest" time="0.001"/>
+  <testcase name="json_timestamped_resources" classname="org.eclipse.leshan.core.node.codec.LwM2mNodeDecoderTest" time="0.003"/>
+  <testcase name="tlv_device_object_instance0_from_instance_tlv" classname="org.eclipse.leshan.core.node.codec.LwM2mNodeDecoderTest" time="0.004"/>
+</testsuite>

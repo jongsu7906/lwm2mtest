@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.eclipse.leshan.server.redis.serialization.RegistrationSerDesTest" time="0.107" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/pi/Downloads/leshan/leshan-server-redis/target/test-classes:/home/pi/Downloads/leshan/leshan-server-redis/target/classes:/home/pi/Downloads/leshan/leshan-server-cf/target/leshan-server-cf-1.0.0-SNAPSHOT.jar:/home/pi/Downloads/leshan/leshan-core-cf/target/leshan-core-cf-1.0.0-SNAPSHOT.jar:/home/pi/Downloads/leshan/leshan-core/target/leshan-core-1.0.0-SNAPSHOT.jar:/home/pi/Downloads/leshan/leshan-server-core/target/leshan-server-core-1.0.0-SNAPSHOT.jar:/home/pi/.m2/repository/org/eclipse/californium/californium-core/2.1.0/californium-core-2.1.0.jar:/home/pi/.m2/repository/org/eclipse/californium/element-connector/2.1.0/element-connector-2.1.0.jar:/home/pi/.m2/repository/org/eclipse/californium/scandium/2.1.0/scandium-2.1.0.jar:/home/pi/.m2/repository/redis/clients/jedis/3.2.0/jedis-3.2.0.jar:/home/pi/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/home/pi/.m2/repository/org/apache/commons/commons-pool2/2.6.2/commons-pool2-2.6.2.jar:/home/pi/.m2/repository/com/eclipsesource/minimal-json/minimal-json/0.9.5/minimal-json-0.9.5.jar:/home/pi/.m2/repository/junit/junit/4.13/junit-4.13.jar:/home/pi/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Linux"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-armhf/jre/lib/arm"/>
+    <property name="sun.java.command" value="/home/pi/Downloads/leshan/leshan-server-redis/target/surefire/surefirebooter3937204138236553719.jar /home/pi/Downloads/leshan/leshan-server-redis/target/surefire 2020-02-27T02-23-23_075-jvmRun1 surefire4180292376993987729tmp surefire_104886379839254609786tmp"/>
+    <property name="surefire.test.class.path" value="/home/pi/Downloads/leshan/leshan-server-redis/target/test-classes:/home/pi/Downloads/leshan/leshan-server-redis/target/classes:/home/pi/Downloads/leshan/leshan-server-cf/target/leshan-server-cf-1.0.0-SNAPSHOT.jar:/home/pi/Downloads/leshan/leshan-core-cf/target/leshan-core-cf-1.0.0-SNAPSHOT.jar:/home/pi/Downloads/leshan/leshan-core/target/leshan-core-1.0.0-SNAPSHOT.jar:/home/pi/Downloads/leshan/leshan-server-core/target/leshan-server-core-1.0.0-SNAPSHOT.jar:/home/pi/.m2/repository/org/eclipse/californium/californium-core/2.1.0/californium-core-2.1.0.jar:/home/pi/.m2/repository/org/eclipse/californium/element-connector/2.1.0/element-connector-2.1.0.jar:/home/pi/.m2/repository/org/eclipse/californium/scandium/2.1.0/scandium-2.1.0.jar:/home/pi/.m2/repository/redis/clients/jedis/3.2.0/jedis-3.2.0.jar:/home/pi/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/home/pi/.m2/repository/org/apache/commons/commons-pool2/2.6.2/commons-pool2-2.6.2.jar:/home/pi/.m2/repository/com/eclipsesource/minimal-json/minimal-json/0.9.5/minimal-json-0.9.5.jar:/home/pi/.m2/repository/junit/junit/4.13/junit-4.13.jar:/home/pi/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/pi"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/usr/lib/jvm/java-8-openjdk-armhf/jre"/>
+    <property name="basedir" value="/home/pi/Downloads/leshan/leshan-server-redis"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/home/pi/Downloads/leshan/leshan-server-redis/target/surefire/surefirebooter3937204138236553719.jar"/>
+    <property name="logback.configurationFile" value="logback-leshan-test.xml"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-openjdk-armhf/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-armhf/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-armhf/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-armhf/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-armhf/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-armhf/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-armhf/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-armhf/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="java.runtime.version" value="1.8.0_212-8u212-b01-1+rpi1-b01"/>
+    <property name="user.name" value="pi"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="4.19.97-v7+"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-openjdk-armhf/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK Client VM"/>
+    <property name="localRepository" value="/home/pi/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="1.8.0_212"/>
+    <property name="user.dir" value="/home/pi/Downloads/leshan/leshan-server-redis"/>
+    <property name="os.arch" value="arm"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/arm:/usr/lib/arm-linux-gnueabihf/jni:/lib/arm-linux-gnueabihf:/usr/lib/arm-linux-gnueabihf:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.212-b01"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-8-openjdk-armhf/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="ser_and_des_are_equals" classname="org.eclipse.leshan.server.redis.serialization.RegistrationSerDesTest" time="0.107"/>
+</testsuite>
