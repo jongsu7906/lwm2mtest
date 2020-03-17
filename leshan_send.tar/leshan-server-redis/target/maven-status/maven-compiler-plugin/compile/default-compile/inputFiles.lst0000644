@@ -1,8 +1,0 @@
-/home/pi/Downloads/leshan/leshan-server-redis/src/main/java/org/eclipse/leshan/server/redis/serialization/SecurityInfoSerDes.java
-/home/pi/Downloads/leshan/leshan-server-redis/src/main/java/org/eclipse/leshan/server/redis/RedisLock.java
-/home/pi/Downloads/leshan/leshan-server-redis/src/main/java/org/eclipse/leshan/server/redis/RedisRegistrationStore.java
-/home/pi/Downloads/leshan/leshan-server-redis/src/main/java/org/eclipse/leshan/server/redis/RedisSecurityStore.java
-/home/pi/Downloads/leshan/leshan-server-redis/src/main/java/org/eclipse/leshan/server/redis/serialization/RegistrationSerDes.java
-/home/pi/Downloads/leshan/leshan-server-redis/src/main/java/org/eclipse/leshan/server/redis/serialization/EndpointContextSerDes.java
-/home/pi/Downloads/leshan/leshan-server-redis/src/main/java/org/eclipse/leshan/server/redis/serialization/IdentitySerDes.java
-/home/pi/Downloads/leshan/leshan-server-redis/src/main/java/org/eclipse/leshan/server/redis/serialization/ObservationSerDes.java
